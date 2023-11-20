@@ -20,6 +20,8 @@ GROUP BY
 ORDER BY    
     Designation;
 ----
+![Employees_TotalYearlyIncrement](https://github.com/KemyMor/SQL---ADVANCE_FUNCTIONS-AND-JOINS./blob/a006d035ffd3c52c977b2777dc3de83a9988a260/Employees_TotalYearlyIncrement.png)
+*Cross-section of employee's total yealy salary.* 
 
 ## Showing the names of all employees along with their department names. Include employees with no assigned department, and sort the result by employee name.
 
@@ -29,6 +31,8 @@ ORDER BY
     GROUP BY name, Designation
     ORDER BY name ;
 ------
+![Employees_Designation](https://github.com/KemyMor/SQL---ADVANCE_FUNCTIONS-AND-JOINS./blob/a006d035ffd3c52c977b2777dc3de83a9988a260/Employees_Designation.jpg)
+*Cross-section of Employee's and their designation.*
 
 ## Showing the average yearly increment for employees in each department.
 
@@ -47,6 +51,8 @@ ORDER BY
     ORDER BY 
         Full_Name;
 ------
+![Employees_AvgYearlyIncrement](https://github.com/KemyMor/SQL---ADVANCE_FUNCTIONS-AND-JOINS./blob/a006d035ffd3c52c977b2777dc3de83a9988a260/Employees_AvgYearlyIncrement.jpg)
+*Cross-section of employee's average yearly increment.*
 
 ## Showing the average yearly increment for employees in each department. Showing departments with an average yearly increment greater than 5000 only.
 
@@ -60,6 +66,7 @@ ORDER BY
       HAVING AVG(Salary.[yearly increment]) > 5000
       ORDER BY Employee.name;
 -------
-
+![Employees_AvgIncrement_Above5000](https://github.com/KemyMor/SQL---ADVANCE_FUNCTIONS-AND-JOINS./blob/a006d035ffd3c52c977b2777dc3de83a9988a260/Employees_AvgIncrement_Above5000.jpg)
+*Employees average yearly increment greater than 5000*
 
 
